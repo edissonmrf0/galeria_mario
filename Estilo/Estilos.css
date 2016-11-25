@@ -1,0 +1,184 @@
+.Form {
+  /*background: white;*/
+  text-align: center;
+}
+
+.LabelSmall {
+  font-size: 18px; 
+  text-align: right;
+  /*color: white;*/
+}
+
+.LabelMedium {
+  font-size: 30px; 
+  text-align: center;
+  /*color: white;*/
+}
+
+.LabelLarge {
+  font-size: 100px; 
+  text-align: center;
+  font-style: bold;
+  color:rgba(236,0,3,1.00);
+}
+
+
+.CajaTextoSmall{
+  font-size: 18px; 
+  font-style: oblique;
+  /*color: white;*/
+
+  width: 180px;
+  height: 25px;
+  
+border-radius: 76px 76px 76px 76px;
+-moz-border-radius: 76px 76px 76px 76px;
+-webkit-border-radius: 76px 76px 76px 76px;
+border: 4px solid #a38c8c;
+}
+
+.CajaTextoMedium{
+  font-size: 20px; 
+  font-style: oblique;
+  /*color: white;*/
+
+  width: 200px;
+  height: 30px;
+  
+   border-radius: 76px 76px 76px 76px;
+-moz-border-radius: 76px 76px 76px 76px;
+-webkit-border-radius: 76px 76px 76px 76px;
+border: 4px solid #a38c8c;
+}
+
+
+.BotonSmallSmall{
+  font-size: 10px;
+  font-style: oblique;
+  /*color: white;*/
+  
+  width: 75px;
+  height: 20px;
+  
+  border-radius: 0px 200px 200px 0px;
+  -moz-border-radius: 0px 200px 200px 0px;
+  -webkit-border-radius: 0px 200px 200px 0px;
+
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  
+  /*background-color: black;*/
+}
+
+.BotonSmall{
+  font-size: 15px;
+  font-style: oblique;
+  /*color: white;*/
+  
+  width: 150px;
+  height: 30px;
+  
+  border-radius: 0px 200px 200px 0px;
+  -moz-border-radius: 0px 200px 200px 0px;
+  -webkit-border-radius: 0px 200px 200px 0px;
+
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  
+  /*background-color: black;*/
+}
+
+.BotonLarge{
+  font-size: 30px;
+  font-style: oblique;
+  /*color: white;*/
+  
+  width: 300px;
+  height: 40px;
+  
+  border-radius: 0px 200px 200px 0px;
+  -moz-border-radius: 0px 200px 200px 0px;
+  -webkit-border-radius: 0px 200px 200px 0px;
+
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  
+  /*background-color: black;*/
+}
+
+
+.BotonImagen{
+  width: 100px;
+  height: 100px;
+
+  /*Boerde*/
+  /*
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+*/
+
+  /*Sombra*/
+  /*
+-webkit-box-shadow: -5px -5px 15px 0px rgba(189,183,189,1);
+-moz-box-shadow: -5px -5px 15px 0px rgba(189,183,189,1);
+box-shadow: -5px -5px 15px 0px rgba(189,183,189,1);
+*/
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+
+.Menu{
+  text-align: center;
+}
+
+.TexttArea{
+  font-size: 18px; 
+  font-style: oblique;
+  
+     border-radius: 76px 76px 76px 76px;
+-moz-border-radius: 76px 76px 76px 76px;
+-webkit-border-radius: 76px 76px 76px 76px;
+border: 4px solid #a38c8c;
+}
+
+.img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	color:rgba(255,255,255,1.00)
+}
+
+.btn {
+  background: #616f78;
+  background-image: -webkit-linear-gradient(top, #616f78, #404c54);
+  background-image: -moz-linear-gradient(top, #616f78, #404c54);
+  background-image: -ms-linear-gradient(top, #616f78, #404c54);
+  background-image: -o-linear-gradient(top, #616f78, #404c54);
+  background-image: linear-gradient(to bottom, #616f78, #404c54);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #801111;
+  background-image: -webkit-linear-gradient(top, #801111, #630101);
+  background-image: -moz-linear-gradient(top, #801111, #630101);
+  background-image: -ms-linear-gradient(top, #801111, #630101);
+  background-image: -o-linear-gradient(top, #801111, #630101);
+  background-image: linear-gradient(to bottom, #801111, #630101);
+  text-decoration: none;
+}
